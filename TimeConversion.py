@@ -27,7 +27,7 @@ def timeConversion(s):
             hour += 12
             return str(hour) + s[2:8]
         else:
-            return str(24)+ s[2:8] 
+            return  s[:8] 
 
     
         
